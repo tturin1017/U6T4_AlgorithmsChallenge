@@ -28,5 +28,6 @@ public class Triangle {
                 + vertices[2].pointInfo() + "]";
         return str;
     }
+   
  }
  
