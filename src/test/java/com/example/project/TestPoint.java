@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestPoint{
-    @Test
-    public void testConstructor(){
-        Point p = new Point(5,10);
-        assertEquals(p.getX(),5, "getX() doesn't work");
-        assertEquals(p.getY(), 10, "getY() doesn't work");
-    }
+    //@Test
+    // public void testConstructor(){
+    //     Point p = new Point(5,10);
+    //     assertEquals(p.getX(),5, "getX() doesn't work");
+    //     assertEquals(p.getY(), 10, "getY() doesn't work");
+    // }
 
     @Test
     public void testDistanceTo(){

@@ -12,11 +12,13 @@ public class Point {
     // Returns distance between this Point object and another Point object
     public double distanceTo(Point other) {
       /* IMPLEMENT ME */
+      return 0.0;
     }
   
     // Returns a string in the format: (x, y)
     public String pointInfo() {
       /* IMPLEMENT ME */
+      return "";
     }
   }
   

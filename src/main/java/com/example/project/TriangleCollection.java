@@ -35,6 +35,7 @@ public class TriangleCollection {
     // all Triangles in the collection
     public double totalPerimeter() {
       /* IMPLEMENT ME */
+      return 0.0;
     }
   
     // adds increment to both the x and y coordinates of each of the
@@ -54,6 +55,7 @@ public class TriangleCollection {
     //  [(1, 5), (5, 12), (7, 5)]"
     public String triangleCollectionInfo() {
       /* IMPLEMENT ME */
+      return "";
     }
   }
   

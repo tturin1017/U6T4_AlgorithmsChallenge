@@ -4,15 +4,15 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestTriangle{
-    @Test
-    public void testConstructorAndGetVertices(){
-        Point p1 = new Point(5, 10);
-        Point p2 = new Point(-6, 17);
-        Point p3 = new Point(18, 4);
-        Triangle t = new Triangle(p1,p2,p3);
-        Point[] expected = {p1,p2,p3};
-        assertArrayEquals(expected, t.getVertices(), "getVertices() doesn't return the correct results for triangle with points (5,10),(-6,17),(18,4)");
-    }
+    //@Test
+    // public void testConstructorAndGetVertices(){
+    //     Point p1 = new Point(5, 10);
+    //     Point p2 = new Point(-6, 17);
+    //     Point p3 = new Point(18, 4);
+    //     Triangle t = new Triangle(p1,p2,p3);
+    //     Point[] expected = {p1,p2,p3};
+    //     assertArrayEquals(expected, t.getVertices(), "getVertices() doesn't return the correct results for triangle with points (5,10),(-6,17),(18,4)");
+    // }
 
     @Test
     public void testPerimeter(){

@@ -21,6 +21,7 @@ public class Fibonacci {
     */
   public int[] getSequence() {
     /* implement me */
+    return new int []{0,0};
   }
 
   /** Returns the index in the array where a particular value, searchVal, is
@@ -30,6 +31,7 @@ public class Fibonacci {
    */
   public int getIndexOf(int searchVal) {
     /* implement me */
+    return 0;
   }
 
   /** Assigns sequence to a new array that extends the current sequence by
@@ -50,5 +52,6 @@ public class Fibonacci {
    */
   public String fibonacciString() {
     /* implement this method using the utility class */
+    return "";
   }
 }
