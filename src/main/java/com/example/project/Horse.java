@@ -20,7 +20,7 @@ public class Horse  {
 
     /** @return a printable String of the Horse -> name: Cathy weight: 1500*/
     public String horseInfo() {
-        return "";
+        return "name: " + name + ", weight: " + weight;
     }
 }
 
